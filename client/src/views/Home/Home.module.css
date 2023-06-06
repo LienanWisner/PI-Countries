@@ -1,0 +1,103 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;  
+    width: 98vw;
+    
+}
+
+.AlphabeticalOrder{
+    border-radius: 20px;
+    
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    align-items: center;
+    height: 3em;
+}
+
+
+.poblation{
+    border-radius: 20px;
+    
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+    font-size: 17px;
+    align-items: center;
+
+}
+
+.continents{
+    border-radius: 20px;
+    
+    backdrop-filter: blur(10px);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.select{
+    margin-left: 20px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid;
+    border-radius: 10px;
+    height: 2.5em;
+    font-size: 15px;
+}
+
+.paginate{
+
+    border-radius: 20px;
+        
+        backdrop-filter: blur(10px);
+        border: 2px solid rgb(0, 0, 0);
+        box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+        background-color: rgba(0, 0, 0, 0.1);
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+        width: 10em;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.prev{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.prev:hover{
+    background-color: #302200;
+    color: #F4E5C2;
+}
+.next{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+}
+.next:hover{
+    background-color: #302200;
+    color: #F4E5C2;
+}

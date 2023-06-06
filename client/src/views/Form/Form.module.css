@@ -1,0 +1,175 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 97vw;
+    margin-top: 5px;
+ 
+}
+
+.form{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 700px;
+   background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    padding: 30px;
+    
+}
+
+.activityContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.activityName{
+    padding: 5px;
+    font-size: 20px;
+}
+
+
+.writeName{
+    margin-left: 5px;
+    border-radius: 10px;
+    height: 25px;
+    border: 2px solid;
+    box-shadow: 1px 1px 10px;   
+    text-align: center; 
+    background-color:  #F4E5C2;
+}
+
+.difficultyContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.durationContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+
+.seasonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.countries{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.countryNameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 230px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+.selectedCountries{
+    border: 1px solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 230px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.eachCountry{
+     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}
+
+.p{
+    margin: 3px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #302200;
+    color: #F4E5C2;
+}
+
+
+.createActivity{
+    position: relative;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    letter-spacing: 1px;
+
+    color: black;
+  }
+  
+  .createActivity:after{
+    position: absolute;
+    content: "" ;
+    background-color: black;
+    left: 0;
+    bottom: -5px;
+    height: 3px;
+    width: 0%;
+    transition: 0.3s;
+
+  }
+  
+  .createActivity:hover:after{
+  
+    width: 100%;
+  }
+
+  .createActivity:disabled{
+    opacity: 30%;
+    
+  }
+
+  .createActivity:disabled:hover:after{
+    width: 0%;
+  }
+
+
+
+  

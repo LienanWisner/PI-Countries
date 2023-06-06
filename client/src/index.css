@@ -1,0 +1,10 @@
+body{
+    background-image: url("../public/img/fondo.jpg");
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif, 'Poppins';
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}

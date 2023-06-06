@@ -1,0 +1,77 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 4em;
+    width: 60em;
+    
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    margin-top: 10px;
+   margin-bottom: 30px;
+}
+
+.home{
+    position: relative;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    height: 2.5em;
+    width: 4em;
+    color: black;
+}
+
+.home:after{
+    position: absolute;
+    content: "" ;
+    background-color: black;
+    left: 0;
+    bottom: 4px;
+    height: 3px;
+    width: 0%;
+    transition: 0.3s;
+}
+
+.home:hover:after{
+
+    width: 100%;
+}
+
+.activity{
+    position: relative;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    height: 2.5em;
+    width: 7em;
+    color: black;
+
+}
+
+.activity:after{
+    position: absolute;
+    content: "" ;
+    background-color: black;
+    left: 0;
+    bottom: 4px;
+    height: 3px;
+    width: 0%;
+    transition: 0.3s;
+}
+
+.activity:hover:after{
+
+    width: 100%;
+}

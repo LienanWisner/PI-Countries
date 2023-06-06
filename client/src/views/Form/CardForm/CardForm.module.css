@@ -1,0 +1,37 @@
+.CardContainer{
+    display: flex;
+    flex-direction: row;
+    width: 250px;
+    padding: 3px;
+    margin: 1px;
+align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    border: 1px solid;
+
+}
+.CardContainer:hover{
+    background-color: #302200;
+    color: #F4E5C2;
+}
+.imageContainer{
+ 
+    background-color: black;
+    padding: 1px;
+}
+
+.image{
+    display: flex;
+    justify-content: flex-start ;
+    align-items: flex-start;
+    height: 1.2em;
+    width: 2em;
+}
+
+
+.name{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.detail{
+    text-align: center;
+     background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    margin: 50px; 
+    padding: 50px;
+}
+
+.activities{
+     text-align: center;
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    margin: 50px; 
+    padding: 50px;
+}
+
+.activity{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+.activity:hover{
+    background-color: #302200;
+    color: #F4E5C2;
+}
+
+
+
+.eachActivity{
+background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 2px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.37);
+    margin: 10px; 
+    padding: 10px;
+
+}
+
+.deleteButton{
+    background-color: transparent;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 17px;
+    color: black;
+    padding: 7px;
+}
+
+.deleteButton:hover{
+    background-color: #302200;
+    color: #F4E5C2;
+    
+}
